@@ -1,0 +1,270 @@
+ <!DOCTYPE html>   
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>CV</title>
+  <meta name="description" content="Portfolio Template for Developer" />
+
+  <link rel="stylesheet" href="project2.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+  <style>
+    .projects__content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.8rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background-color: #545252;
+      border-radius: 16px;
+      padding: 2rem 1.5rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      color: #000000;
+      text-align: center;
+    }
+
+    .card-list {
+      padding-left: 1.5rem;
+      list-style-type: disc;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .card-text {
+      color: #444;
+      line-height: 1.6;
+      text-align: center;
+    }
+  .card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.card-text {
+  color: #ffffff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+
+  </style>
+</head>
+
+<body>
+  <div class="header__content">
+    <div class="header__logo-container">
+      <div class="header__logo-img-cont">
+        <img
+          src="DEAF2.png"
+          alt=""
+          class="header__logo-img"
+        />
+      </div>
+      <span class="header__logo-sub">منبه الهمم</span>
+    </div>
+    <div class="header__main">
+      <ul class="header__links">
+        <li class="header__link-wrapper">
+          <a href="HOME.html" class="header__link"> cv </a>
+        </li>
+        <li class="header__link-wrapper">
+          <a href="project111.html" class="header__link">منبه الهمم </a>
+        </li>
+        <li class="header__link-wrapper">
+          <a href="eamil.html" class="header__link"> منبه افتراضي </a>
+        </li>
+        <li class="header__link-wrapper">
+          <a href="project11.html" class="header__link"> مقال </a>
+        </li>
+      </ul>
+      <div class="header__main-ham-menu-cont">
+        <img
+          src="./assets/svg/ham-menu.svg"
+          alt="hamburger menu"
+          class="header__main-ham-menu"
+        />
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</header>
+
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+   <span class="heading-sec__main"> منبه الهمم
+   </span>
+      <span class="heading-sec__sub">
+        مخصص لذوي الهمم من الصم
+      </span>
+    </h2> 
+        <div class="about__content-skills">
+          <h3 class="about__content-title">
+        مهارات مستخدمة
+          </h3>
+          <div class="skills">
+            <div class="skills__skill">c++</div>
+            <div class="skills__skill">Arduino</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+<div class="card">
+  <h2 class="card-title">وصف المشروع</h2>
+  <video width="100%" controls style="border-radius: 12px; margin-top: 1rem;">
+    <source src="فديو.mp4" type="video/mp4">
+    متصفحك لا يدعم تشغيل الفيديو.
+  </video>
+</div>
+
+<div class="card">
+  <h2 class="card-title">الأدوات المستخدمة</h2>
+  <div class="projects__content">
+
+    <div class="card">
+      <h3 class="card-title">ESP8266</h3>
+      <p class="card-text">
+        شريحة Wi-Fi منخفضة التكلفة قادرة على التعامل مع بروتوكول TCP/IP. تدير المدخلات والمخرجات من المكونات الأخرى مثل الحساسات والموتورات، وتعمل على إرسال التنبيهات وتشغيل LED ومحرك الاهتزاز باستخدام تطبيق مثل Blynk.
+      </p>
+      <img src="شريحه.jpg" alt="ESP8266 GIF" style="width: 100%; border-radius: 12px; margin-top: 1rem;" />
+    </div>
+
+    <div class="card">
+      <h3 class="card-title">محرك الاهتزاز (هزاز)</h3>
+      <p class="card-text">
+        يولد اهتزازًا فعليًا يُستخدم كتنبيه صامت. مهم لذوي الإعاقات السمعية لتنبيههم بطريقة ملموسة.
+      </p>
+      <img src="اهتزاز.jpg "
+    alt="Vibration Motor GIF" style="width: 100%; border-radius: 12px; margin-top: 1rem;" />
+  <p class="card-text">
+</div>
+
+    <div class="card">
+      <h3 class="card-title">إضاءة LED</h3>
+      <p class="card-text">
+        يصدر ضوء عند مرور تيار كهربائي. يُستخدم كمؤشر بصري أو تنبيه إضافي بجانب الاهتزاز.
+      </p>
+      <img src="نور.jpg" alt="LED GIF" style="width: 100%; border-radius: 12px; margin-top: 1rem;" />
+    </div>
+  </div>
+</div>
+<section id="about" class="about sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-med">
+      <span class="heading-sec__main">
+
+    <section id="about" class="about sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-med">
+      <span class="heading-sec__main">منبه الهمم</span>
+
+            <span class="heading-sec__sub">
+
+     هذا المشروع يدور حول تطوير منبه مخصص لذوي الهمم من الصم، يتميز بأنه مدمج في سوار يد يمكن ارتداؤه بسهولة.
+        يعتمد المنبه على نظام إنذار بالاهتزاز والوميض الضوئي، مما يضمن فعاليته في مختلف البيئات.
+        يمكن للمستخدمين ضبط وقت التنبيه من خلال منصة Blynk، وهي منصة تحكم سهلة الاستخدام.
+        هذا المنبه يساعد في تعزيز الاستقلالية بفضل تصميمه المحمول والمريح، ويوفر وسيلة فعالة للتنبيه في أي وقت.
+      </span>
+    </h2>
+  </div>
+</section>
+
+
+
+<div class="card">
+  <h2 class="card-title"> Blynk، واجهه من</h2>
+  <img src="هويه.jpg" alt="صورة المشروع" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;" />
+  <p style="color: #444; line-height: 1.6; text-align: justify;">
+<body>
+    <!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>زر تجربة</title>
+</head>
+  <button
+    onclick="window.location.href='eamil.html'"
+    style="
+      display: block;
+      margin: 1rem auto 0;
+      padding: 0.6rem 1.2rem;
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    ">
+
+    جرب المنبه الآن
+  </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+ 
+    </div>
+  </section>
